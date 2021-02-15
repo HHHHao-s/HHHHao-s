@@ -1,6 +1,9 @@
-import requests, os, sys
-from multiprocessing.dummy import Pool as pl
+import os
+import sys
 import time
+from multiprocessing.dummy import Pool as pl
+
+import requests
 from lxml import html
 
 etree = html.etree
